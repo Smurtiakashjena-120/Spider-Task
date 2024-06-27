@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="parentContainer">
+<div class="heading">
+    <p>Recipe Block</p>
+  
+    <ul>
+<li>Select from the below ingredients</li>
+<li>click the submit button to get Recipe</li>
+    </ul>
+  
+</div>
+
+<div class="startButton">
+    <button id="startBtn">Show Items</button>
+</div>
+<div class="recipeForm hidden">
+    <i style="font-size: xx-large; margin-bottom: 1vh;"><u>Items : </u></i>
+    <form id="ingredientForm">
+        <div id="checkboxContainer"></div>
+        <button type="submit">Submit</button>
+    </form>
+    
+    
+    
+</div>
+
+<div id="result" class="hidden"></div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

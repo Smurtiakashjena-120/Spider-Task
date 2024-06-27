@@ -1,0 +1,10 @@
+
+
+.gameBoard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 75vh;
+    width: 75vh;
+    gap: 10px;
+    
+}

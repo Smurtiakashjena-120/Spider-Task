@@ -1,0 +1,69 @@
+.parentContainer{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+.heading{
+    flex-direction: column;
+    font-weight: 200;
+    font-size: xx-large;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading ul{
+font-size:small;
+font-weight: 100;
+}
+.hidden{
+    visibility:hidden;
+}
+.recipeForm{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 1px solid black;
+    border-radius: 1vh;
+    color: blue;
+    margin:5vh;
+    padding:5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#result{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 1px solid black;
+    border-radius: 1vh;
+    color:black;
+    margin:5vh;
+    padding:5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#result img{
+    margin: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: 1px solid black;
+    border-radius: 1vh;
+
+}
+.recipeForm button{
+    margin-top: 5vh;
+}
+
+button{
+    padding: 2px;
+    border-radius: 4px;
+    background-color: beige;
+}
+button:hover{
+    background-color: aqua;
+}
